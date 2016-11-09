@@ -75,20 +75,6 @@ public:
 
 int main(){
 	Solution s;
-	vector<int> v1(5);
-	vector<int> v2(1);
-	string *str = new string("ad");
-	string s1 = "abc";
-	string s2 = "";
-
-	vector<string> v_str(2);
-	v_str[0] = "bbbas2";
-	v_str[1] = "aasd1";
-	string ssss = "";
-	for(int i = 0; i < 2; ++i){
-		ssss += v_str[i];
-	}
-	char qwe;
 	string strr = "pdhoozufbkgswhmwruzpdfgysycpvmwlrfzfevkhitagaoctiejnlrodpqskeqxvwzccwpkekmkmapgltryeimjzeblirjfpkksgzeljqxvsmddhueleswdxxrhrapgmzasaeflwdippmuxiykpthssgjzzlqgxrisrnxelanaszxrjxdyqmtiteksqaapsljlahqljdodeluniamzmhhhltcduevopebpnrdzwrcaczqmzelnlvvwozakdvyvbakptpoqgqskrixqmkezfbwwaygfthauhnlcczsjsnvjvsakdgjkjhglfpqawrxfeijiietcrplmhnymvixepfpvwivuzsbfdlnnpjpgyaufotslbrqsyhpvpnpohrvkclxtumzsptzfmtqpkgkjqzefmvwumteqeejaskuheumsndkalulbtrhimfczyirdmdffnaotwbmlgyltsyvnpevclxdjiuowxudnwsgsvufdsrwkrtahzvjkvoudikbiefvaxduuyaxqtvdkpdtqacbvqxabhclohiqgllcjnzciwfulkockqfgjcimlkxztfqbsddeqeiybnsozgsjzzrkdawpmtqiaglujrabxibyxwpwejgfjxpmzlboguwiahfmafpyorylpnitxqzipoupcyfisbtukyildyjtrhhgxpzwhyewpanrasbstupguxtavevmncsktui";
 	cout << s.convert(strr, 503) << endl;
 //	cout << qwe << endl;
