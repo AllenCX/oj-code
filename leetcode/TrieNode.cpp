@@ -1,3 +1,8 @@
+/*
+Trie Tree implement with C++.
+Reference: https://leetcode.com/articles/implement-trie-prefix-tree/ 
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
