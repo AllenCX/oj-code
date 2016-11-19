@@ -7,7 +7,7 @@ public:
         return ret;
     }
     void dfs(int depth, vector<vector<int>> &ret, vector<int> &tmp_ret, int k, int n){
-        if(n < 0) return;
+        if(n < 0 || tmp_ret.size() > k) return;
         if(n == 0 && tmp_ret.size() == k){
             ret.push_back(tmp_ret);
             return;
