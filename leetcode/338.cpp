@@ -11,9 +11,8 @@ public:
         if(num == 0) return ret;
         for(int i = 0; i <= num; ++i){
             if(i == 0) continue;
-            int n = log2(i);
-            int ans = 1 + ret[i - pow(2, int(n))];
-            ret.push_back(ans);
+            //int n = log2(i);
+            ret.push_back(int(1 + ret[i - pow(2, int(log2(i)))]));
         }
         return ret;
     }
