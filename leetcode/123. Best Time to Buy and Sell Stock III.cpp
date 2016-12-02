@@ -21,7 +21,7 @@ public:
     }
 };
 
-// AC solution
+// AC solution+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
