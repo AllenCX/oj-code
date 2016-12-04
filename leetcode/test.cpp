@@ -1,9 +1,11 @@
-#include <iostream>
+#include<vector>
+#include<iostream>
 using namespace std;
-int main(int argc, char const *argv[])
-{
-	int i = 1 << 2;
-	int used = 3;
-	cout << (i & used) << endl;
-	return 0;
+int main(){
+	vector<int> v;
+	v.push_back(1);
+	vector<int> v2;
+	v2.push_back(2);
+	v.push_back(v2);
+	cout << v.size() << endl;
 }
