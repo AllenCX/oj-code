@@ -1,5 +1,6 @@
 #include<vector>
 #include<string>
+#include<map>
 #include<iostream>
 using namespace std;
 vector<int> f(string P){
@@ -19,10 +20,8 @@ vector<int> f(string P){
 	return pi;
 }
 int main(){
-	string str = "ababbabbabba";
-	vector<int> v = f(str);
-	for(int i = 0; i < v.size(); ++i){
-		cout << v[i] << " ";
+	vector<int> v(5,1);
+	for(auto i : v){
+		cout << i ;
 	}
-	cout << endl;
 }
