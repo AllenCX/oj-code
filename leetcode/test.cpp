@@ -9,5 +9,6 @@ int main(){
 	mp[2] = 3;
 	mp[3] = 4;
 	cout << (mp.find(5) == mp.end()) << endl;
+	cout << mp.count(1) << endl;
 	return 0;
 }
